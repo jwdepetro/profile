@@ -1,7 +1,7 @@
 [ -r /etc/bashrc ] && source /etc/bashrc
 [ -r /etc/bash_completion ] && source /etc/bash_completion
-[ -r .git-completion.bash ] && source .git-completion.bash
-[ -r .git-prompt.sh ] && source .git-prompt.sh
+[ -r git-completion.bash ] && source git-completion.bash
+[ -r git-prompt.sh ] && source git-prompt.sh
 [ -r /usr/local/rvm/scripts/rvm ] && source /usr/local/rvm/scripts/rvm
 
 __has_parent_dir () {
